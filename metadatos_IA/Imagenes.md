@@ -378,3 +378,105 @@ Se puede observar que ha generado toda la imagen de nuevo, incluyendo el termóm
 **CHATGPT**
 
 - File Modification Date/Time: 2025:11:24 03:28:08-05:00
+
+----
+
+## ¿Se pueden modificar estos metadatos?
+
+Por supuesto que se pueden modificar, es un proceso muy sencillo.
+
+La forma principal que he usado para modificar los metadatos, es copiar los de la imagen original en las imágenes generadas.
+Primero se convierte el archivo a jpg, ya que las imagenes que generan las IAs están en formato png y después ya se copian los metadatos:
+
+```bash
+convert chatgpt.png chatgpt.jpg
+exiftool -TagsFromFile 1.jpg chatgpt.jpg
+```
+
+También se pueden añadir uno a uno, o modificarlos uno a uno, pero es un proceso mucho más tedioso, oslo lo recomiendo hacer con metadatos de fotos reales.
+
+## ¿Los detectores de IA funcionan?
+
+Si pongo metadatos reales en una imagen generada por IA, pasa a ser una imagen real?
+Existen muchos detectores de IA (casi todos de pago) pero hoy voya revisar estos 2:
+- [aiornot.com](https://www.aiornot.com/)
+- [decopy.ai](https://decopy.ai/es/ai-image-detector/)
+
+### AI-OR-NOT
+
+El detector de **AIORNOT** es el primero que voy a revisar.
+Para usarlo hay que crearse una cuenta, una vez creada, nos sale algo asi:
+
+<img width="1912" height="991" alt="image" src="https://github.com/user-attachments/assets/9e872056-c507-4c61-9ad9-ff3b5269e470" />
+
+Tan solo podemos comprobar si una imagen es IA 10 veces, si no hay que pagar una suscripción mensual.
+
+Y cuando revisas una imagen, te obliga a pagar para ver su resultado:
+
+<img width="797" height="876" alt="image" src="https://github.com/user-attachments/assets/0f28e11e-fddf-4952-9e04-cbbe698017fa" />
+
+Nos podemos saltar esto, si eliminamos el div que contiene el texto y desenfocamos el fondo:
+
+<img width="1150" height="509" alt="image" src="https://github.com/user-attachments/assets/eff6a126-1c52-4b88-9234-c6fe3af90a61" />
+
+↓
+
+<img width="992" height="394" alt="image" src="https://github.com/user-attachments/assets/14aaaa28-97ac-48eb-8b6d-636fcfd5bfc3" />
+
+↓
+
+<img width="466" height="380" alt="image" src="https://github.com/user-attachments/assets/93c41cb6-f000-421b-bf90-f09d027bb437" />
+
+Esta ha sido la comprobación con la imagen real, ahroa voy a probar con la imagen generada por Gemini, sin cambiar y cambiando los metadatos.
+
+**Imagen IA + Metadatos IA**
+
+<img width="824" height="806" alt="image" src="https://github.com/user-attachments/assets/da085767-c75c-4059-bc29-d6082bfb9831" />
+
+
+**Imagen IA + Metadatos reales**
+
+<img width="823" height="753" alt="image" src="https://github.com/user-attachments/assets/7fbed3f3-8e01-400d-8a67-e041b13096c9" />
+
+Esto significa que este detector de IA, tan solo usa los metadatos para determinar si una imagen es IA o no, pasando por alto el contenido de la propia imagen, siendo poco efectivo. Desconozco si pagando funcione mejor, 
+Y no pongo la ocmprobación de la imagen generada por CHATGPT porque el resultado es el mismo.
+
+### Decopy.ai
+
+Este detector es de uso gratuito, sin necesidad de crear una cuenta para poder usarlo y sin versiones de pago.
+
+Su uso es tan sencillo como cargar una imagen en la página web:
+
+<img width="1918" height="924" alt="image" src="https://github.com/user-attachments/assets/930087d1-bd81-475f-93be-0a4a3029f7bc" />
+
+**Imagen real + Metadatos reales**
+
+<img width="1165" height="871" alt="image" src="https://github.com/user-attachments/assets/25f38c1e-0674-478b-96db-de13946c260e" />
+
+Podemos observar, que esta página esta usando una IA para ver el contenido de la imagen y explicarnos, porque puede ser (o no) IA.
+Aunque esta es la imagen real, me ha detectado una posibilidad del 27% de que sea IA
+
+**Imagen IA + Metadatos IA**
+
+<img width="1174" height="875" alt="image" src="https://github.com/user-attachments/assets/c4ce6265-2952-4fa6-8dd3-de6affaca68e" />
+
+Al pasarle la imagen generada con Gemini, me ha detectado que ha sido generada con IA, aunque viendo la explicación y descripción de la imagen, dice que parece una imagen real.
+
+**Imagen IA + Metadatos reales**
+
+<img width="1155" height="825" alt="image" src="https://github.com/user-attachments/assets/91f16b82-45aa-4156-a3bf-80505a0791b1" />
+
+Ahora, detecta que hay un 61% de posibilidades de que la imagen sea generada con IA.
+
+Un detalle curioso, es que ha pasado por alto la marca de agua que pone Gemini cada vez que genera una imagen.
+
+### Conclusiones
+
+Parece ser que las herramientas de detección de IA se apoyan en los metadatos para poder detectar si una imagen ha sido generada con IA o no, aunque hay algunas que implementan otros métodos y no es tan sencillo engañarlas.
+
+## ¿Qué implicaciones tendrá esto a nivel forense?
+
+Como se ha visto, cambiar los metadatos de una imagen es muy sencillo, se pueden cambiar todos o cambiar los que nosotros queramos.
+Al igual que podemos hacer pasar una imagen hecha por IA por una real, podemos hacer lo contrario, hacer pasar una imagen real por una hecha con IA.
+
+Al final, solo nos podremos apoyar en el **hash** de cada imagen, ya que al modificar los metadatos de un archivo, el hash tambien se ve modificado y si el hash de un archivo se ve modificado durante una investigación, ese archivo/prueba queda anulada.
