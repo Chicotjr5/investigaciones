@@ -334,7 +334,7 @@ Se puede observar que ha generado toda la imagen de nuevo, incluyendo el termóm
 - Make: realme
 - Camera Model Name: realme GT 2
 
-**CHATGPT**
+**ChatGPT**
 
 - Actions Software Agent Name: GPT-4o
 - Claim Generator Info Name: ChatGPT
@@ -348,7 +348,7 @@ Se puede observar que ha generado toda la imagen de nuevo, incluyendo el termóm
 - File Size: 2.3 MB
 - Image Size: 3072x4096 - 12.6 mpx
 
-**CHATGPT**
+**ChatGPT**
 
 - File Type: PNG
 - File Size: 2.5 MB
@@ -364,7 +364,7 @@ Se puede observar que ha generado toda la imagen de nuevo, incluyendo el termóm
 - Focal Length: 5.6 mm
 - Lens Model: realme GT 2 back camera 5.59mm f/1.8
 
-**CHATGPT**
+**ChatGPT**
 
 - No existen
 
@@ -375,7 +375,7 @@ Se puede observar que ha generado toda la imagen de nuevo, incluyendo el termóm
 - Date/Time Original: 2025:11:17 16:27:52
 - Create Date: 2025:11:17 16:27:52
 
-**CHATGPT**
+**ChatGPT**
 
 - File Modification Date/Time: 2025:11:24 03:28:08-05:00
 
