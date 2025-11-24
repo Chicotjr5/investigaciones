@@ -1,7 +1,7 @@
 # METADATOS DE IMAGENES E IA
 
-Cuando le pedimos a ChatGPT que modifique una imagen, ¿que hace realmente?
-Cuando le pides a una IA que modifique una imagen, estas generarán una nueva imagen en base a la imagen que tu le has pasado.
+Cuando le pedimos a una IA que modifique una imagen, ¿que hace realmente?
+Estas generarán una nueva imagen en base a la imagen que tu le has pasado.
 Y al ser una imagen completamente nueva, los metadatos son diferentes a los de la imagen original.
 
 Para poder comprobar esto, use la siguiente imagen:
