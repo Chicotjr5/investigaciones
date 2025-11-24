@@ -1,6 +1,6 @@
-# METADATOS DE IMAGENES E IA
+# METADATOS DE IMÁGENES E IA
 
-Cuando le pedimos a una IA que modifique una imagen, ¿que hace realmente?
+Cuando le pedimos a una IA que modifique una imagen, ¿qué hace realmente?
 Estas generarán una nueva imagen en base a la imagen que tu le has pasado.
 Y al ser una imagen completamente nueva, los metadatos son diferentes a los de la imagen original.
 
@@ -397,25 +397,25 @@ También se pueden añadir uno a uno, o modificarlos uno a uno, pero es un proce
 
 ## ¿Los detectores de IA funcionan?
 
-Si pongo metadatos reales en una imagen generada por IA, pasa a ser una imagen real?
-Existen muchos detectores de IA (casi todos de pago) pero hoy voya revisar estos 2:
+Si pongo metadatos reales en una imagen generada por IA, ¿pasa a ser una imagen real?
+Existen muchos detectores de IA (casi todos de pago) pero yo voy a revisar estos 2:
 - [aiornot.com](https://www.aiornot.com/)
 - [decopy.ai](https://decopy.ai/es/ai-image-detector/)
 
 ### AI-OR-NOT
 
-El detector de **AIORNOT** es el primero que voy a revisar.
-Para usarlo hay que crearse una cuenta, una vez creada, nos sale algo asi:
+El detector de **AIORNOT** es el primero que voy a comproabr.
+Para usarlo hay que crearse una cuenta e iniciar sesión:
 
 <img width="1912" height="991" alt="image" src="https://github.com/user-attachments/assets/9e872056-c507-4c61-9ad9-ff3b5269e470" />
 
-Tan solo podemos comprobar si una imagen es IA 10 veces, si no hay que pagar una suscripción mensual.
+Podemos realizar 10 comprobaciones antes de que nos obligue a pasar por caja.
 
-Y cuando revisas una imagen, te obliga a pagar para ver su resultado:
+Al revisar una imagen, te obliga suscribirte de forma mensual si quieres ver todo el análisis:
 
 <img width="797" height="876" alt="image" src="https://github.com/user-attachments/assets/0f28e11e-fddf-4952-9e04-cbbe698017fa" />
 
-Nos podemos saltar esto, si eliminamos el div que contiene el texto y desenfocamos el fondo:
+Podemos saltar el proceso de pago, si eliminamos el div que contiene el texto y desenfocamos el fondo:
 
 <img width="1150" height="509" alt="image" src="https://github.com/user-attachments/assets/eff6a126-1c52-4b88-9234-c6fe3af90a61" />
 
@@ -427,7 +427,7 @@ Nos podemos saltar esto, si eliminamos el div que contiene el texto y desenfocam
 
 <img width="466" height="380" alt="image" src="https://github.com/user-attachments/assets/93c41cb6-f000-421b-bf90-f09d027bb437" />
 
-Esta ha sido la comprobación con la imagen real, ahroa voy a probar con la imagen generada por Gemini, sin cambiar y cambiando los metadatos.
+Esta ha sido la comprobación con la imagen real, ahora voy a probar con la imagen generada por Gemini, sin modificar y modificando los metadatos.
 
 **Imagen IA + Metadatos IA**
 
@@ -438,8 +438,8 @@ Esta ha sido la comprobación con la imagen real, ahroa voy a probar con la imag
 
 <img width="823" height="753" alt="image" src="https://github.com/user-attachments/assets/7fbed3f3-8e01-400d-8a67-e041b13096c9" />
 
-Esto significa que este detector de IA, tan solo usa los metadatos para determinar si una imagen es IA o no, pasando por alto el contenido de la propia imagen, siendo poco efectivo. Desconozco si pagando funcione mejor, 
-Y no pongo la ocmprobación de la imagen generada por CHATGPT porque el resultado es el mismo.
+Esto significa que este detector de IA, tan solo usa los metadatos para determinar si una imagen es IA o no, pasando por alto el contenido de la propia imagen, siendo poco efectivo. Desconozco si pagando funcione mejor.
+No pongo la comprobación de la imagen generada por CHATGPT porque el resultado es el mismo.
 
 ### Decopy.ai
 
@@ -454,7 +454,7 @@ Su uso es tan sencillo como cargar una imagen en la página web:
 <img width="1165" height="871" alt="image" src="https://github.com/user-attachments/assets/25f38c1e-0674-478b-96db-de13946c260e" />
 
 Podemos observar, que esta página esta usando una IA para ver el contenido de la imagen y explicarnos, porque puede ser (o no) IA.
-Aunque esta es la imagen real, me ha detectado una posibilidad del 27% de que sea IA
+Aunque esta es la imagen real, me ha detectado una posibilidad del 27% de que sea IA.
 
 **Imagen IA + Metadatos IA**
 
