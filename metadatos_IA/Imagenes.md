@@ -139,7 +139,7 @@ Ahora le preguntaré a ChatGPT y a Gemini que modifiquen la imagen para que el t
 
 ## GEMINI
 
-**Prompt**: Quiero que cambies la temperatura del termómetro y que marque 41,4 grados.
+**Prompt**: Quiero que cambies la temperatura del termómetro y que marque 41.4 grados.
 
 <details>
 <summary><strong>Resultado</strong></summary>
@@ -203,63 +203,100 @@ Se puede observar, que no ha realizado bien la edición de la imagen, además de
 
 ### DIFERENCIAS
 
-#### ORIGEN Y AUTENTICIDAD
+<table>
+  <tr>
+    <th colspan="2">ORIGEN Y AUTENTICIDAD</th>
+    <th colspan="2">FORMATO Y TAMAÑO</th>
+  </tr>
+  <tr>
+    <th>Imagen real</th>
+    <th>Gemini</th>
+    <th>Imagen real</th>
+    <th>Gemini</th>
+  </tr>
+  <tr>
+    <td>Make: realme</td>
+    <td><i>—</i></td>
+    <td>File Type: JPEG</td>
+    <td>File Type: PNG</td>
+  </tr>
+  <tr>
+    <td>Camera Model Name: realme GT 2</td>
+    <td><i>—</i></td>
+    <td>File Size: 2.3 MB</td>
+    <td>File Size: 1135 kB</td>
+  </tr>
+  <tr>
+    <td>Software: Picasa</td>
+    <td>Software: Edited with Google AI</td>
+    <td>Image Size: 3072x4096 (12.6 mpx)</td>
+    <td>Image Size: 864x1184 (1 mpx)</td>
+  </tr>
+  <tr>
+    <td>Credit: Edited with Google AI</td>
+    <td><i>—</i></td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Digital Source Type: compositeWithTrainedAlgorithmicMedia</td>
+    <td>Digital Source Type: compositeWithTrainedAlgorithmicMedia</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
 
-**Imagen real**
+  <!-- 🔹 Fila de separación añadida aquí -->
+  <tr>
+    <td colspan="4" style="height:10px; border:none;"></td>
+  </tr>
 
-- Make: realme
-- Camera Model Name: realme GT 2
-
-**Gemini**
-
-- Software: Picasa
-- Credit: Edited with Google AI
-- Digital Source Type: compositeWithTrainedAlgorithmicMedia
-
-#### FORMATO Y TAMAÑO
-
-**Imagen real**
-
-- File Type: JPEG
-- File Size: 2.3 MB
-- Image Size: 3072x4096 - 12.6 mpx
-
-**Gemini**
-
-- File Type: PNG
-- File Size: 1135 kB
-- Image Size: 864x1184 - 1 mpx
-
-#### DATOS TÉCNICOS DE LA CÁMARA
-
-**Imagen real**
-
-- Exposure Time: 1/25
-- F Number: 1.8
-- ISO: 500
-- Focal Length: 5.6 mm
-- Lens Model: realme GT 2 back camera 5.59mm f/1.8
-
-**Gemini**
-
-- No existen
-
-#### FECHAS
-
-**Imagen real**
-
-- Date/Time Original: 2025:11:17 16:27:52
-- Create Date: 2025:11:17 16:27:52
-
-**Gemini**
-
-- Date/Time Original: 2025:11:24 07:53:42+00:00
+  <tr>
+    <th colspan="2">DATOS TÉCNICOS DE LA CÁMARA</th>
+    <th colspan="2">FECHAS</th>
+  </tr>
+  <tr>
+    <th>Imagen real</th>
+    <th>Gemini</th>
+    <th>Imagen real</th>
+    <th>Gemini</th>
+  </tr>
+  <tr>
+    <td>Exposure Time: 1/25</td>
+    <td>No existen</td>
+    <td>Date/Time Original: 2025:11:17 16:27:52</td>
+    <td>Date/Time Original: 2025:11:24 07:53:42+00:00</td>
+  </tr>
+  <tr>
+    <td>F Number: 1.8</td>
+    <td>—</td>
+    <td>Create Date: 2025:11:17 16:27:52</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>ISO: 500</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Focal Length: 5.6 mm</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Lens Model: realme GT 2 back camera 5.59mm f/1.8</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+</table>
 
 ---
 
 ## CHATGPT
 
-**Prompt**: Quiero que cambies la temperatura del termómetro y que marque 41,4 grados.
+**Prompt**: Quiero que cambies la temperatura del termómetro y que marque 41.4 grados.
 
 <details>
 <summary><strong>Resultado</strong></summary>
@@ -339,57 +376,83 @@ Se puede observar que ha generado toda la imagen de nuevo, incluyendo el termóm
 
 ### DIFERENCIAS
 
-#### ORIGEN Y AUTENTICIDAD
+<table>
+  <tr>
+    <th colspan="2">ORIGEN Y AUTENTICIDAD</th>
+    <th colspan="2">FORMATO Y TAMAÑO</th>
+  </tr>
+  <tr>
+    <th>Imagen real</th>
+    <th>ChatGPT</th>
+    <th>Imagen real</th>
+    <th>ChatGPT</th>
+  </tr>
+  <tr>
+    <td>Make: realme</td>
+    <td>Actions Software Agent Name: GPT-4o</td>
+    <td>File Type: JPEG</td>
+    <td>File Type: PNG</td>
+  </tr>
+  <tr>
+    <td>Camera Model Name: realme GT 2</td>
+    <td>Claim Generator Info Name: ChatGPT</td>
+    <td>File Size: 2.3 MB</td>
+    <td>File Size: 2.5 MB</td>
+  </tr>
+  <tr>
+    <td>—</td>
+    <td>Digital Source Type: trainedAlgorithmicMedia</td>
+    <td>Image Size: 3072x4096 (12.6 mpx)</td>
+    <td>Image Size: 1024x1536 (1.6 mpx)</td>
+  </tr>
 
-**Imagen real**
+  <!-- 🔹 Fila de separación -->
+  <tr>
+    <td colspan="4" style="height:10px; border:none;"></td>
+  </tr>
 
-- Make: realme
-- Camera Model Name: realme GT 2
+  <tr>
+    <th colspan="2">DATOS TÉCNICOS DE LA CÁMARA</th>
+    <th colspan="2">FECHAS</th>
+  </tr>
+  <tr>
+    <th>Imagen real</th>
+    <th>ChatGPT</th>
+    <th>Imagen real</th>
+    <th>ChatGPT</th>
+  </tr>
+  <tr>
+    <td>Exposure Time: 1/25</td>
+    <td>No existen</td>
+    <td>Date/Time Original: 2025:11:17 16:27:52</td>
+    <td>File Modification Date/Time: 2025:11:24 03:28:08-05:00</td>
+  </tr>
+  <tr>
+    <td>F Number: 1.8</td>
+    <td>—</td>
+    <td>Create Date: 2025:11:17 16:27:52</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>ISO: 500</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Focal Length: 5.6 mm</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Lens Model: realme GT 2 back camera 5.59mm f/1.8</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+</table>
 
-**ChatGPT**
-
-- Actions Software Agent Name: GPT-4o
-- Claim Generator Info Name: ChatGPT
-- Digital Source Type: trainedAlgorithmicMedia
-
-#### FORMATO Y TAMAÑO
-
-**Imagen real**
-
-- File Type: JPEG
-- File Size: 2.3 MB
-- Image Size: 3072x4096 - 12.6 mpx
-
-**ChatGPT**
-
-- File Type: PNG
-- File Size: 2.5 MB
-- Image Size: 1024x1536 - 1.6 mpx
-
-#### DATOS TÉCNICOS DE LA CÁMARA
-
-**Imagen real**
-
-- Exposure Time: 1/25
-- F Number: 1.8
-- ISO: 500
-- Focal Length: 5.6 mm
-- Lens Model: realme GT 2 back camera 5.59mm f/1.8
-
-**ChatGPT**
-
-- No existen
-
-#### FECHAS
-
-**Imagen real**
-
-- Date/Time Original: 2025:11:17 16:27:52
-- Create Date: 2025:11:17 16:27:52
-
-**ChatGPT**
-
-- File Modification Date/Time: 2025:11:24 03:28:08-05:00
 
 ----
 
@@ -397,33 +460,35 @@ Se puede observar que ha generado toda la imagen de nuevo, incluyendo el termóm
 
 Por supuesto que se pueden modificar, es un proceso muy sencillo.
 
-La forma principal que he usado para modificar los metadatos, es copiar los de la imagen original en las imágenes generadas.
-Primero se convierte el archivo a jpg, ya que las imagenes que generan las IAs están en formato png y después ya se copian los metadatos:
+En mi caso he copiado los metadatos de la imagen original en las imágenes generadas.
+Primero se convierte el archivo a .jpg, ya que las imagenes que generan las IAs están en formato .png y después ya se copian los metadatos:
 
 ```bash
+# Convertir fichero a jpg
 convert chatgpt.png chatgpt.jpg
+
+# Copiar metadatos
 exiftool -TagsFromFile 1.jpg chatgpt.jpg
 ```
 
-También se pueden añadir uno a uno, o modificarlos uno a uno, pero es un proceso mucho más tedioso, oslo lo recomiendo hacer con metadatos de fotos reales.
+También se pueden añadir y modificar los metadatos uno a uno, pero es un proceso mucho más tedioso.
 
 ## ¿Los detectores de IA funcionan?
 
 Si pongo metadatos reales en una imagen generada por IA, ¿pasa a ser una imagen real?
-Existen muchos detectores de IA (casi todos de pago) pero yo voy a revisar estos 2:
+Existen muchos detectores de IA (casi todos de pago) pero yo voy a revisar estos 3:
 - [aiornot.com](https://www.aiornot.com/)
 - [decopy.ai](https://decopy.ai/es/ai-image-detector/)
+- [Copyleaks](https://copyleaks.com/ai-image-detector)
 
 ### AI-OR-NOT
 
-El detector de **AIORNOT** es el primero que voy a comproabr.
-Para usarlo hay que crearse una cuenta e iniciar sesión:
+El detector de **AIORNOT** es el primero que voy a comprobar.
+Para usarlo he de crear una cuenta e iniciar sesión:
 
 <img width="1912" height="991" alt="image" src="https://github.com/user-attachments/assets/9e872056-c507-4c61-9ad9-ff3b5269e470" />
 
-Podemos realizar 10 comprobaciones antes de que nos obligue a pasar por caja.
-
-Al revisar una imagen, te obliga suscribirte de forma mensual si quieres ver todo el análisis:
+Ya registrados, tenemos uan prueba gratuita, en la que solo se nos permite realizar 10 comprobaciones y sin poder visualizar el análisis completo, ya que para ello, nos obliga a pagar.
 
 <img width="797" height="876" alt="image" src="https://github.com/user-attachments/assets/0f28e11e-fddf-4952-9e04-cbbe698017fa" />
 
@@ -445,7 +510,6 @@ Esta ha sido la comprobación con la imagen real, ahora voy a probar con la imag
 
 <img width="824" height="806" alt="image" src="https://github.com/user-attachments/assets/da085767-c75c-4059-bc29-d6082bfb9831" />
 
-
 **Imagen IA + Metadatos reales**
 
 <img width="823" height="753" alt="image" src="https://github.com/user-attachments/assets/7fbed3f3-8e01-400d-8a67-e041b13096c9" />
@@ -457,7 +521,7 @@ No pongo la comprobación de la imagen generada por CHATGPT porque el resultado 
 
 ### Decopy.ai
 
-Este detector es de uso gratuito, sin necesidad de crear una cuenta para poder usarlo y sin versiones de pago.
+Este detector es de uso gratuito, sin necesidad de crear una cuenta para poder usarlo y sin suscripciones mensuales.
 
 Su uso es tan sencillo como cargar una imagen en la página web:
 
@@ -484,13 +548,16 @@ Ahora, detecta que hay un 61% de posibilidades de que la imagen sea generada con
 
 Un detalle curioso, es que ha pasado por alto la marca de agua que pone Gemini cada vez que genera una imagen.
 
-### Conclusiones
+### Copyleaks
 
-Parece ser que las herramientas de detección de IA se apoyan en los metadatos para poder detectar si una imagen ha sido generada con IA o no, aunque hay algunas que implementan otros métodos y no es tan sencillo engañarlas.
+## Conclusiones
+
+Parece ser que las herramientas de detección de IA se apoyan bastante en los metadatos para poder detectar si una imagen ha sido generada con IA o no, aunque hay algunas que implementan otros métodos y cuesta más engañarlas.
 
 ## ¿Qué implicaciones tendrá esto a nivel forense?
 
-Como se ha visto, cambiar los metadatos de una imagen es muy sencillo, se pueden cambiar todos o cambiar los que nosotros queramos.
-Al igual que podemos hacer pasar una imagen hecha por IA por una real, podemos hacer lo contrario, hacer pasar una imagen real por una hecha con IA.
+Como se ha visto, cambiar los metadatos de una imagen es un proceso muy sencillo y con ello, podemos hacer pasar una imagen generada por IA, por una imagen real y viceversa.
 
 Al final, solo nos podremos apoyar en el **hash** de cada imagen, ya que al modificar los metadatos de un archivo, el hash tambien se ve modificado y si el hash de un archivo se ve modificado durante una investigación, ese archivo/prueba queda anulada.
+
+Una posible solución a este problema, sería que los agentes de IA añadieran algo de esteganografía a la imagen (algunos implementan una marca de agua) y que mediante x proceso común, se pudiera saber si esa imagen ha sido editada o no.
