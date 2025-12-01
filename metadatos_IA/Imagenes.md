@@ -550,6 +550,41 @@ Un detalle curioso, es que ha pasado por alto la marca de agua que pone Gemini c
 
 ### Copyleaks
 
+Este es otro detector de IA, el cual se especializa en detectar las áreas de una imagen que han sido modificadas por IA.
+Este detector nos permite subir 5 imágenes al día antes de solicitarnos la creación de una cuenta.
+
+**Imagen real**
+
+Como se puede observar, el detector nos indica que la imagen es 100% real.
+
+<img width="1140" height="489" alt="image" src="https://github.com/user-attachments/assets/5bfda7b8-bd58-4c5f-a6af-bfbf692df580" />
+
+**Imagen IA + Metadatos IA**
+
+**Gemini**
+
+Con Gemini, detecta que la imagen es IA, pero nos marca que casi toda la imagen ha sido modificada por IA, cuando solamente ha sido modificado el termómetro.
+
+<img width="1141" height="495" alt="image" src="https://github.com/user-attachments/assets/98c4d9ad-3768-4e7b-b5ff-031b6f244087" />
+
+**ChatGPT**
+
+Con ChatGPT, nos indica que es IA, pero no se muy bien porque marca esa área, debería de marcar toda la imagen, ya que ChatGPT generó la imagen de 0.
+
+<img width="1080" height="486" alt="image" src="https://github.com/user-attachments/assets/f559ef38-ae3c-4c53-990f-ec79fb78ee51" />
+
+**Imagen IA + Metadatos reales**
+
+**Gemini**
+
+Con metadatos reales, el detector no es capaz de detectar que la imagen ha sido generada con IA.
+<img width="1137" height="485" alt="image" src="https://github.com/user-attachments/assets/6b5d1606-f9c6-42da-9ad8-b0d6309bed8e" />
+
+**ChatGPT**
+
+Con ChatGPT si que ha detectado que es IA pero marcando un área menor, lo cual no tiene mucho sentido, ya que la imagen es la misma.
+<img width="1074" height="487" alt="image" src="https://github.com/user-attachments/assets/2c3a0390-e7b4-407d-9dce-357c31f2f247" />
+
 ## Conclusiones
 
 Parece ser que las herramientas de detección de IA se apoyan bastante en los metadatos para poder detectar si una imagen ha sido generada con IA o no, aunque hay algunas que implementan otros métodos y cuesta más engañarlas.
