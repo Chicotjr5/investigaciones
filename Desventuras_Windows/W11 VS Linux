@@ -5,10 +5,11 @@ Estos SO serán instalados en el mismo equipo:
 ### EQUIPO
 
 **Nombre** 
-- HP Laptop ...
+- HP Laptop 15s-eq1xxx
 
 **Procesador**
 - AMD Ryzen 7 4700U
+  - 8 Nñucleos
 
 **Gráfica**
 - AMD Radeon Graphics 512MB
@@ -32,6 +33,7 @@ Agregar versiones
 
 **LINUX MINT**
 
-
+- Versión 22.2
+Kernel 6.14.0.29
 
 **TRABAJANDO**
