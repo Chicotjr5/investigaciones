@@ -9,7 +9,7 @@ Estos SO serán instalados en el mismo equipo:
 
 **Procesador**
 - AMD Ryzen 7 4700U
-  - 8 Nñucleos
+  - 8 Núcleos
 
 **Gráfica**
 - AMD Radeon Graphics 512MB
@@ -34,6 +34,6 @@ Agregar versiones
 **LINUX MINT**
 
 - Versión 22.2
-Kernel 6.14.0.29
+  - Kernel 6.14.0.29
 
 **TRABAJANDO**
