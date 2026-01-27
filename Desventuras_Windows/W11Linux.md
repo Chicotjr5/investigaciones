@@ -39,9 +39,9 @@ Agregar versiones
 
 
 
-## COMPARACIONES
+# COMPARACIONES
 
-### LINUX MINT
+## LINUX MINT
 
 Como se puede observar, la interfaz de Linux Mint es bastante limpia gracias al uso de [Cinnamon](https://projects.linuxmint.com/cinnamon/) que es la interfaz gráfica usada por esta distro de GNU/LINUX.
 
@@ -61,7 +61,7 @@ En cuanto al uso general del sistema, se siente más rápido que Windows, pero n
 
 Tambien he de mencionar el uso de RAM. En el caso de Linux Mint, todas las aplicaciones consumen menos RAM que en Windows (ya sean aplicaciones nativas o de terceros) y estan no suelen aumentar el consumo de la RAM, o si lo aumentan, no lo hacen de una forma exagerada.
 
-#### Software preinstalado
+### Software preinstalado
 
 **Inutil**
 - En Linux Mint encontramos algunas plaicaciones preintsladas que sirven para conectarse a servicios de Linux Mint y que la gente no va a llegar a usar 
@@ -71,16 +71,59 @@ Tambien he de mencionar el uso de RAM. En el caso de Linux Mint, todas las aplic
 - Mozilla Firefox
 - Gestor de software
   - El equivalente a la Microsoft Store, pero con software útil y popular
+- Aplicaciones nativas (que no necesitas inicar sesión para usarlas) 
 
 
-### Windows 11
+## Windows 11
+
+Por lo general, el sistema no se siente fluido y las aplicaciones nativas tardan en abirse (siendo el explorador de archivos el peor caso), además de que para la mayoría de ellas, hace falta una cuenta de Microsoft para poder usarlas.
+
+Además, si quieres usar herramientas ofimaticas (la suite de Microsoft 365 copilot) no solo necesitas una cuenta de Microsoft, si no que has de pagar una licencia para poder usarlo
 
 
-### Diferencias en el uso de  RAM 
+---
+### Psoible anexo?
+**Software inutil**
+- Aplicación Experience
+- Centro de opiniones
+- Asistencia rápida
+- Cámara
+- Contactos
+  - Directorio
+- Grabadora **
+- Mapas - Fuera de soporte
+- Noticias - ES LITERALMENTE EDGE, PERO CONSUMIENTO MAS 
+- Peliculas y TV
+- Power Automate **
+- Family
+- Journal
+- Kinect
+- Mensajes del operador
+- Bing
+- Microsoft Phone Link
+ 
+**Software para el que necesitas una cuenta de Microsoft**
+- Copilot	
+- Clipchamp
+- Onedrive
+- Outlook
+  - Correo y calendario
+- Power Automate
+- Teams
+- Microsoft To Do
+- XBOX
+- Whiteboard
+- Centro de opiniones
+  - Necesitas iniciar sesión con Microsoft para la experiencia completa
+
+ **Software vomitivo**
+ - MICROSOFT DESIGNER 
+
+## Diferencias en el uso de  RAM 
 
 Para estas pruebas, he capturado el consumo de RAM nada más iniciar el programa y despuÉs de unos minutos de uso, para ver como y cuento aumenta el condumo en los SO
 
-#### Inicio equipo
+### Inicio equipo
 
 **Linux Mint**
 - 1.4GB
@@ -88,16 +131,16 @@ Para estas pruebas, he capturado el consumo de RAM nada más iniciar el programa
 **Windows 11**
 - 4GB 
 
-#### Explorador de archivos
+### Explorador de archivos
 
 **Linux Mint**
 - 39.8MB
 
 **Windows 11**
 - 193MB - 252MB
-  - 
+  - En Windows, el explorador de archivos se encuentran precargado en el sistema, porloq ue siempre esta consumiento RAM. Al dejar de usar el explorador de archivos y encontraerse en 2º plano, mantiene el consumo de 190-250MB y poco a poco va disminuyendo el consumo (he llegado a ver mínimos de 55MB)
 
-#### Bloc de notas
+### Bloc de notas
 
 **Linux Mint**
 - 39.8MB
@@ -105,7 +148,7 @@ Para estas pruebas, he capturado el consumo de RAM nada más iniciar el programa
 **Windows 11**
 - 85MB 
 
-#### Navegador
+### Navegador
 
 **Linux Mint**
 - 1.5GB
@@ -113,7 +156,7 @@ Para estas pruebas, he capturado el consumo de RAM nada más iniciar el programa
 **Windows 11**
 - 4GB 
 
-#### Suite de Office
+### Suite de Office
 
 **Linux Mint**
 - Writer - 135MB
@@ -125,26 +168,24 @@ Para estas pruebas, he capturado el consumo de RAM nada más iniciar el programa
 - Calc - 270-339MB
 - Point
 
-
-#### Thunderbird
-
-**Linux Mint**
-- 194 - 214GB
-
-**Windows 11**
-- 400MB - 500MB
-
-
-#### Calculadora
+### Thunderbird
 
 **Linux Mint**
-- 26.5MB
+- 194 - 214 MB
 
 **Windows 11**
-- 75GB 
+- 400 MB - 500 MB
 
-#### Navegador - Mozilla/Microsoft Edge
-Para esta prueba he abierto un navegador con 4 pestañas: Youtube, Drive, Nueva 
+### Calculadora
+
+**Linux Mint**
+- 26.5 MB
+
+**Windows 11**
+- 75 - 140 MB 
+
+### Navegador - Mozilla/Microsoft Edge
+Para esta prueba he abierto un navegador con 4 pestañas: Youtube, Drive, google imagenes y nueva pestaña
 
 **Linux Mint**
 - 1GB
@@ -152,10 +193,15 @@ Para esta prueba he abierto un navegador con 4 pestañas: Youtube, Drive, Nueva
 **Windows 11**
 - 1.2GB 
 
+# Ventajas Windows 11 vs GNU/Linux
 
-## ÚLTIMAS CAGADAS DE MICROSOFT
+- Es más intuitivo de usar/instalar gracias a su interfaz y sus 
+- La mayoria de software se desarrolla para Windows y no tiene una versión para GNU/LINUX o las versiones alternativas para Linux suelen ser desarrolladas por equipos más pequeños y no tienen tanto soporte / funcionalidades
+- 
 
-- Sacar parches para areglar actualizaciones, para tener que sacar más parches que arreglen los parches anteriores
+# ÚLTIMAS CAGADAS DE MICROSOFT
+
+- Sacar parches para arreglar actualizaciones, para tener que sacar más parches que arreglen los parches anteriores
 - Meter copilot en todos lados cuando nadie lo usa
   - Cambiar/Eliminar la suite de Office para integrarla con Copilot
 - Elevar los requisitos mínimos de hardware para Windows 11 y dejar a millones de equipos completamente funcionales sin opción a actualizarse (mejor para GNU/LINUX)
